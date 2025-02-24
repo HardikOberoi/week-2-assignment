@@ -1,19 +1,33 @@
-Instructions:
-Use JavaScript to complete the tasks below.
-Ensure proper logic and functionality.
+// Task 1: Declare a variable age and check if adult
+let age = 25;
+let isAdult = age >= 18;
+console.log("Is adult:", isAdult);
 
-1: Declare a variable age and assign it a value of 25. Then,
-declare another variable is Adult that is true if age is 18 or
-more, otherwise false.
+// Task 2: Perform arithmetic operations
+let x = 10;
+let y = 5;
+let addition = x + y;
+let multiplication = x * y;
+let modulus = x % y;
 
-2: Given x = 10 and y = 5, perform the following operations
-and store the results:
-• Addition
-• Multiplication
-• Modulus
-•
-3: Write a program that checks if a number n is even or odd and
-stores the result in a variable.
-4: Write a for loop to store numbers from 1 to 5 in an array.
-5: Write a function square that takes a number as input and
-returns its square.
+console.log("Addition:", addition);
+console.log("Multiplication:", multiplication);
+console.log("Modulus:", modulus);
+
+// Task 3: Check if a number is even or odd
+let n = 7;
+let isEven = n % 2 === 0 ? "Even" : "Odd";
+console.log("Number is:", isEven);
+
+// Task 4: Store numbers from 1 to 5 in an array
+let numbers = [];
+for (let i = 1; i <= 5; i++) {
+    numbers.push(i);
+}
+console.log("Numbers array:", numbers);
+
+// Task 5: Function to return square of a number
+function square(num) {
+    return num * num;
+}
+console.log("Square of 4:", square(4));
